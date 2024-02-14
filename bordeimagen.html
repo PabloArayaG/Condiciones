@@ -15,8 +15,11 @@
 </navbar>
 
     <div class="container"> 
-    <img id='imagen' src="assets/IMG/0019055830_71.jpg" onclick="
-    
+    <img id='imagen' src="assets/IMG/0019055830_71.jpg" onclick=" verificarBorde()">
+    </div>
+
+<script>
+function verificarBorde(){
     imagen = document.querySelector('#imagen')
 
     if (!imagen.style.border){
@@ -24,8 +27,7 @@
     } else {
         imagen.style.border = '';
     }
-">
-    </div>
-
+}
+</script>
 </body>
 </html>

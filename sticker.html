@@ -27,7 +27,12 @@
 <p class="parrafo"> </p>
 </div>
 <div class="resultado"> 
-<button onclick="
+<button onclick="verificarStickers() "> Verificar </button>
+</div>
+
+<script> 
+
+function verificarStickers(){ 
     let sUno = parseInt(document.querySelector('#sticker1').value) || 0;
     let sDos= parseInt(document.querySelector('#sticker2').value) || 0;
     let sTres = parseInt(document.querySelector('#sticker3').value) || 0;
@@ -41,9 +46,11 @@
     } else {
         resultadoParrafo.innerHTML = 'Llevas demasiados stickers'
     }
-    "> Verificar </button>
-</div>
+}
 
+
+
+</script>
 
 </body>
 </html>
