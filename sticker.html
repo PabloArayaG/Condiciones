@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css" ></link>
+    <title>Stickerst</title>
+</head>
+<body>
+
+    <navbar id="nav">
+        <a class="borde" href="bordeimagen.html"> Imagen </a>
+        <a class="stickers" href="sticker.html"> Stickers </a>
+        <a class="password" href="password.html"> Password </a>
+        </navbar>
+    <div class="container-stickers">
+        <img id='imagen' src="assets/IMG/51wupggZbRL.jpg"> 
+        <img id='imagen' src="assets/IMG/e850f173fc7784375ccd6fc2020e8573.jpg"> 
+        <img id='imagen'src="assets/IMG/st,small,507x507-pad,600x600,f8f8f8.jpg"> 
+    </div>
+<div class="inputs"> 
+    <input id="sticker1" type="number" min="0">
+    <input id="sticker2" type="number" min="0">
+    <input id="sticker3" type="number" min="0">
+</div>
+<div class="p"> 
+<p class="parrafo"> </p>
+</div>
+<div class="resultado"> 
+<button onclick="
+    let sUno = parseInt(document.querySelector('#sticker1').value) || 0;
+    let sDos= parseInt(document.querySelector('#sticker2').value) || 0;
+    let sTres = parseInt(document.querySelector('#sticker3').value) || 0;
+    let resultadoParrafo = document.querySelector('.parrafo');
+
+
+    let cantidad = sUno + sDos + sTres;
+
+    if (cantidad <= 10){
+        resultadoParrafo.innerHTML = 'Llevas ' + cantidad + ' stickers'
+    } else {
+        resultadoParrafo.innerHTML = 'Llevas demasiados stickers'
+    }
+    "> Verificar </button>
+</div>
+
+
+</body>
+</html>

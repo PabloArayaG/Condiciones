@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Borde Imagen</title>
+</head>
+<body>
+
+<navbar id="nav">
+<a class="borde" href="bordeimagen.html"> Imagen </a>
+<a class="stickers" href="sticker.html"> Stickers </a>
+<a class="password" href="password.html"> Password </a>
+</navbar>
+
+    <div class="container"> 
+    <img id='imagen' src="assets/IMG/0019055830_71.jpg" onclick="
+    
+    imagen = document.querySelector('#imagen')
+
+    if (!imagen.style.border){
+        imagen.style.border = '2px solid red'
+    } else {
+        imagen.style.border = '';
+    }
+">
+    </div>
+
+</body>
+</html>

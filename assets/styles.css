@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(22, 22, 22);
+}
+#nav{
+color: aliceblue absolute;
+display: flex;
+gap: 15px;
+justify-content: center;
+margin-top: 40px;
+}
+.container{
+display: flex;
+justify-content: center;
+margin-top: 150px;
+}
+
+#imagen{
+    width: 300px;
+    height: 300px;
+}
+
+.container-stickers{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.container-password{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.inputs{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
